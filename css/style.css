@@ -1,0 +1,75 @@
+:root {
+  --main-bg: #1e1e1e;
+  --main-color: #dcdcdc;
+  --accent-color: #00bfff;
+  --font: 'Ubuntu Mono', monospace;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('../fonts/UbuntuMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('../fonts/UbuntuMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: var(--main-bg);
+  color: var(--main-color);
+  font-family: var(--font);
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 1rem;
+}
+
+pre {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #dcdcdc;
+}
