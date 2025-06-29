@@ -46,11 +46,6 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 li {
   margin-bottom: 1rem;
 }
@@ -71,5 +66,5 @@ pre {
 
 code {
   font-family: 'Ubuntu Mono', monospace;
-  color: #dcdcdc;
+  color: #e06666;
 }
