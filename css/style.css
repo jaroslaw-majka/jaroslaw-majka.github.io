@@ -79,3 +79,19 @@ code {
   margin: 2px 4px;
   font-size: 0.9em;
 }
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #aaa;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
